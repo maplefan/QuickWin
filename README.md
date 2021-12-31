@@ -35,7 +35,9 @@ QuickWin是一款用于Windows平台的集多种便捷功能于一体的软件�
 
 
 
-###### 查看硬件信息主界面 ![查看硬件信息主界面](./READMEPIC/QuickWin-HardWareInfo1.png)
+###### 查看硬件信息主界面
+ 
+ ![查看硬件信息主界面](./READMEPIC/QuickWin-HardWareInfo1.png)
 
 ###### 悬浮窗的硬件信息
 
