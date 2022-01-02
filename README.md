@@ -24,6 +24,7 @@ QuickWin是一款用于Windows平台的集多种便捷功能于一体的软件�
 ### 下载地址：
 
 [Github](https://github.com/maplefan/QuickWin/releases/)
+
 [百度网盘](https://pan.baidu.com/s/13qgZS5ucANTYwDMvl4-U4Q) 提取码：jq1q
 
 ### 构建套件
@@ -391,7 +392,7 @@ Desktop Qt 5.15.2 MSVC2019 32bit
  ![AliPay](./READMEPIC/AliPay.png)
 
 ###### Wechat Pay
- ![Wechat Pay](./READMEPIC/Wechat Pay.png)
+ ![Wechat Pay](./READMEPIC/WechatPay.png)
 
 ------
 
