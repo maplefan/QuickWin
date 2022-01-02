@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>driver/OpenArkDrv32.sys</file>
+        <file>driver/OpenArkDrv64.sys</file>
+    </qresource>
+</RCC>

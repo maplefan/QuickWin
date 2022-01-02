@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Setting</class>
+ <widget class="QMainWindow" name="Setting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>460</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>设置</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="tabGeneral">
+       <attribute name="title">
+        <string>常规设置</string>
+       </attribute>
+       <widget class="QCheckBox" name="checkBoxAutoStart">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>开机自启动</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBoxLanguage">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>40</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>简体中文</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>繁体中文</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>英文</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="labelLanguage">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>语言：</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBoxStockShow">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>70</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>红涨绿跌</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>红跌绿涨</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="labelStockShow">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>自选股颜色：</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelFont">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>100</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>窗口字体：</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSetFont">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>100</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>选择字体</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelHotkey">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>160</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>快捷键设置：</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSetHotkey">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>160</y>
+          <width>150</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>设置快捷键</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonSetScreenProtect">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>10</y>
+          <width>120</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>设置屏幕保护</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>340</y>
+          <width>385</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>注意：部分已经加载的界面在修改语言、字体和数据轮播时间的时候需要重启应用程序才能生效</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelFontResult">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>130</y>
+          <width>250</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBoxFontWeight">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>130</y>
+          <width>71</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>加粗</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBoxQuickLook">
+        <property name="geometry">
+         <rect>
+          <x>165</x>
+          <y>10</y>
+          <width>120</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>启用QuickLook</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>400</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>屏幕亮度与对比度</string>
+        </property>
+        <widget class="QLabel" name="labelMonitor">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>15</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>选择要调节的屏幕：</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBoxMonitor">
+         <property name="geometry">
+          <rect>
+           <x>210</x>
+           <y>15</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMonitorBrightness">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>45</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>设置屏幕亮度：</string>
+         </property>
+        </widget>
+        <widget class="QSlider" name="horizontalSliderMonitorBrightness">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>45</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMonitorContrast">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>75</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>设置屏幕对比度：</string>
+         </property>
+        </widget>
+        <widget class="QSlider" name="horizontalSliderMonitorContrast">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>75</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMonitorBrightnessValue">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>45</y>
+           <width>50</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMonitorContrastValue">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>75</y>
+           <width>50</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>190</y>
+          <width>171</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>数据轮播时间：</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBoxUpdateTime">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>190</y>
+          <width>150</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>1000ms</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2000ms</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3000ms</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4000ms</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>5000ms</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>7000ms</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10000ms</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabMainWindow">
+       <attribute name="title">
+        <string>主窗口设置</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBoxMainFontAndColor">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>9</y>
+          <width>410</width>
+          <height>110</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>字体与颜色</string>
+        </property>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>101</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>字体：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>100</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>文本颜色：</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonMainChooseFont">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>选择字体</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonMainChooseColor">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>50</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>选择颜色</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMainFont">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMainColor">
+         <property name="geometry">
+          <rect>
+           <x>164</x>
+           <y>50</y>
+           <width>81</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>80</y>
+           <width>100</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>背景颜色：</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonMainChooseColorBK">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>80</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>选择颜色</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMainColorBK">
+         <property name="geometry">
+          <rect>
+           <x>164</x>
+           <y>80</y>
+           <width>81</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxMainShowContent">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>130</y>
+          <width>410</width>
+          <height>170</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>显示选项</string>
+        </property>
+        <widget class="QGroupBox" name="groupBoxTaskShowContent_2">
+         <property name="geometry">
+          <rect>
+           <x>9</x>
+           <y>15</y>
+           <width>395</width>
+           <height>145</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>显示内容</string>
+         </property>
+         <widget class="QCheckBox" name="checkBoxMainCPUUtil">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU使用率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainMemoryUtil">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>40</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>内存使用率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainUploadSpeed">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>上传速度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainDownloadSpeed">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>20</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>下载速度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainCPUTemp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>80</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU核心温度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainCPUPower">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU功率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainGPUTemp">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>80</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GPU核心温度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainGPUPower">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>100</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GPU功率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainGPUUtil">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GPU使用率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainMBTemp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>主板温度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainMBFan">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>60</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>主板风扇转速</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxMainHardDiskTemp">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>120</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>硬盘温度</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxMainOther">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>310</y>
+          <width>410</width>
+          <height>105</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>其他</string>
+        </property>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>45</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>双击动作：</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBoxHideMainWindow">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>15</y>
+           <width>330</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>有程序全屏时隐藏主窗口</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBoxMainDoubleClickAction">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>45</y>
+           <width>160</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>默认浏览器</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>截图工具</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>便利贴</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>颜色拾取</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>任务管理器</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>实用工具</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>定时提醒</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>热键管理</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>自选股</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>查看硬件信息</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>切换划词翻译状态</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>显示搜索框</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>自定义打开程序</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>75</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>双击打开程序路径：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelMainDoubleClickPath">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>75</y>
+           <width>220</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tabTaskBar">
+       <attribute name="title">
+        <string>任务栏设置</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBoxTaskOther">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>280</y>
+          <width>410</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>其他</string>
+        </property>
+        <widget class="QLabel" name="label_12">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>15</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>双击动作：</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBoxTaskDoubleClickAction">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>15</y>
+           <width>160</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>默认浏览器</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>截图工具</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>便利贴</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>颜色拾取</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>任务管理器</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>实用工具</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>定时提醒</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>热键管理</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>自选股</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>查看硬件信息</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>切换划词翻译状态</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>显示搜索框</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>自定义打开程序</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>45</y>
+           <width>150</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>双击打开程序路径：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelTaskDoubleClickPath">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>45</y>
+           <width>220</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxTaskFontAndColor">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>9</y>
+          <width>410</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>字体与颜色</string>
+        </property>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>100</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>字体：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>100</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>文本颜色：</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonTaskChooseFont">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>选择字体</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonTaskChooseColor">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>50</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>选择颜色</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelTaskFont">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>125</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelTaskColor">
+         <property name="geometry">
+          <rect>
+           <x>164</x>
+           <y>50</y>
+           <width>81</width>
+           <height>25</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBoxTaskShowInfo">
+        <property name="geometry">
+         <rect>
+          <x>9</x>
+          <y>100</y>
+          <width>410</width>
+          <height>170</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>显示选项</string>
+        </property>
+        <widget class="QGroupBox" name="groupBoxTaskShowContent">
+         <property name="geometry">
+          <rect>
+           <x>9</x>
+           <y>15</y>
+           <width>395</width>
+           <height>145</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>显示内容</string>
+         </property>
+         <widget class="QCheckBox" name="checkBoxTaskCPUUtil">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>40</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU使用率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskMemoryUtil">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>40</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>内存使用率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskUploadSpeed">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>上传速度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskDownloadSpeed">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>20</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>下载速度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskCPUTemp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>80</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU核心温度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskCPUPower">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>100</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>CPU功率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskGPUTemp">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>80</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GPU核心温度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskGPUPower">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>100</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GPU功率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskGPUUtil">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>GPU使用率</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskMBTemp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>60</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>主板温度</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskMBFan">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>60</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>主板风扇转速</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBoxTaskHardDiskTemp">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>120</y>
+            <width>180</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>硬盘温度</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

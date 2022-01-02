@@ -1,5 +1,7 @@
 # QuickWin
 
+[![Badge](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg?style=flat-square)](https://996.icu/#/en_US) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![LICENSE](https://img.shields.io/github/license/maplefan/QuickWin)](https://img.shields.io/github/license/maplefan/QuickWin)
+
 ### 关于
 
 QuickWin是一款用于Windows平台的集多种便捷功能于一体的软件，其中主要功能包括
@@ -19,7 +21,13 @@ QuickWin是一款用于Windows平台的集多种便捷功能于一体的软件�
 * [搜索工具](#1.14)
 * [划词翻译](#1.15)
 
+### 下载地址：
 
+[Github](https://github.com/maplefan/QuickWin/releases/)
+[百度网盘](https://pan.baidu.com/s/13qgZS5ucANTYwDMvl4-U4Q) 提取码：jq1q
+
+### 构建套件
+Desktop Qt 5.15.2 MSVC2019 32bit
 
  ###### 右键菜单
 
@@ -36,7 +44,7 @@ QuickWin是一款用于Windows平台的集多种便捷功能于一体的软件�
 
 
 ###### 查看硬件信息主界面
- 
+
  ![查看硬件信息主界面](./READMEPIC/QuickWin-HardWareInfo1.png)
 
 ###### 悬浮窗的硬件信息
@@ -367,13 +375,31 @@ QuickWin是一款用于Windows平台的集多种便捷功能于一体的软件�
 
 
 ###### 常规设置界面
-![常规设置界面](./READMEPIC/QuickWin-Setting1.png)
+ ![常规设置界面](./READMEPIC/QuickWin-Setting1.png)
 
 ###### 主窗口设置界面
-![主窗口设置界面](./READMEPIC/QuickWin-Setting2.png)
+ ![主窗口设置界面](./READMEPIC/QuickWin-Setting2.png)
 
 ###### 任务栏设置界面
-![任务栏设置界面](./READMEPIC/QuickWin-Setting3.png)
+ ![任务栏设置界面](./READMEPIC/QuickWin-Setting3.png)
 
 ------
 
+### 捐助
+
+###### AliPay
+ ![AliPay](./READMEPIC/AliPay.png)
+
+###### Wechat Pay
+ ![Wechat Pay](./READMEPIC/Wechat Pay.png)
+
+------
+
+### 鸣谢
+
+------
+
+### 更新日志
+
+##### 2022.01.02 v1.0.0
+发布QuickWin v1.00版本

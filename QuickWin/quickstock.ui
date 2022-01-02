@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuickStock</class>
+ <widget class="QMainWindow" name="QuickStock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>自选股</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="tableView">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">/*QTableView 左上角样式*/
+QTableView QTableCornerButton::section {
+   /*  background: red;
+    border: 2px outset red;*/
+    color: red;
+    background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+ }
+
+ QTableView {
+    color: white;                                       /*表格内文字颜色*/
+    gridline-color: black;                              /*表格内框颜色*/
+    background-color: rgb(108, 108, 108);               /*表格内背景色*/
+    alternate-background-color: rgb(64, 64, 64);
+    selection-color: white;                             /*选中区域的文字颜色*/
+    selection-background-color: rgb(77, 77, 77);        /*选中区域的背景色*/
+    border: 2px groove gray;
+    border-radius: 0px;
+    padding: 2px 4px;
+}
+
+QHeaderView {
+    color: white;
+    background-color: rgb(108, 108, 108);
+    border: 0px solid rgb(144, 144, 144);
+    border:0px solid rgb(191,191,191);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-radius:0px;
+    min-height:29px;	
+	font: bold 10pt
+}
+
+QHeaderView::section {
+    color: white;
+    background-color: rgb(64, 64, 64);
+    border: 5px solid #f6f7fa;
+    border-radius:0px;
+    border-color: rgb(64, 64, 64);
+} </string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

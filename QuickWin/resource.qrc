@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Altavoz.png</file>
+        <file>green.png</file>
+        <file>pink.png</file>
+        <file>off.gif</file>
+        <file>on.gif</file>
+    </qresource>
+</RCC>

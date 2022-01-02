@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainTool</class>
+ <widget class="QMainWindow" name="MainTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string>常用</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="rightMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="autoFillBackground">
+              <bool>false</bool>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_4">
+               <property name="horizontalSpacing">
+                <number>6</number>
+               </property>
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="wslBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>LinuxShell</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/wsl.ico</normaloff>:/maintools/wsl.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="powershellBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>PowerShell</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/powershell.ico</normaloff>:/maintools/powershell.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="cmdBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>命令提示符</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/cmd.ico</normaloff>:/maintools/cmd.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_2">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_3">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="taskmgrBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>任务管理器</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/taskmgr.ico</normaloff>:/maintools/taskmgr.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="regeditBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>注册表</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/regedit.ico</normaloff>:/maintools/regedit.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="servicesBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>服务管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/services.ico</normaloff>:/maintools/services.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_3">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_3">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_2">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="pcnameBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>计算机名</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/pcname.ico</normaloff>:/maintools/pcname.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="envBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>环境变量</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/env.ico</normaloff>:/maintools/env.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="programsBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>程序管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/program.ico</normaloff>:/maintools/program.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_4">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_4">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_9">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="calcBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>计算器</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/calc.ico</normaloff>:/maintools/calc.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="fastpoweroffBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>快速关机</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/poweroff.ico</normaloff>:/maintools/poweroff.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="fastrebootBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>快速重启</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/reboot.ico</normaloff>:/maintools/reboot.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_7">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>130</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_7">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>128</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_7">
+               <property name="horizontalSpacing">
+                <number>3</number>
+               </property>
+               <property name="verticalSpacing">
+                <number>6</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="1">
+                <widget class="QPushButton" name="controlBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>120</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>控制面板</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/control.png</normaloff>:/maintools/control.png</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QPushButton" name="killexplorerBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>120</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>结束资源管理器</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/killexplorer.ico</normaloff>:/maintools/killexplorer.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QPushButton" name="resetexplorerBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>120</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>重启资源管理器</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/resetexplorer.ico</normaloff>:/maintools/resetexplorer.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_2">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="title">
+           <string>配置</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="rightMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_5">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_5">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_6">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="sysinfoBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>系统信息</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/systeminfo.ico</normaloff>:/maintools/systeminfo.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="versionBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>系统版本</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/version.ico</normaloff>:/maintools/version.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="deskiconsBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>桌面图标</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/deskicon.ico</normaloff>:/maintools/deskicon.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_6">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_6">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_5">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="tasksBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>计划任务</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/tasksch.ico</normaloff>:/maintools/tasksch.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="devmgrBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>设备管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/devmgr.ico</normaloff>:/maintools/devmgr.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="diskmgrBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>磁盘管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/disks.ico</normaloff>:/maintools/disks.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_8">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_8">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_8">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="datetimeBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>时间日期</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/datetime.ico</normaloff>:/maintools/datetime.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="wallpaperBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>壁纸</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/wallpaper.ico</normaloff>:/maintools/wallpaper.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="clearTypeBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>ClearType设置</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/cleartype.png</normaloff>:/maintools/cleartype.png</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="title">
+           <string>性能和安全</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="rightMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_11">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_11">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_11">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="usersBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>用户管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/users.ico</normaloff>:/maintools/users.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="uacBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>UAC设置</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/uac.ico</normaloff>:/maintools/uac.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="credBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>凭据管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/credential.ico</normaloff>:/maintools/credential.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_12">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_12">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_12">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="evtBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>事件查看</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/eventlog.ico</normaloff>:/maintools/eventlog.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="gpoBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>组策略</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/gpedit.ico</normaloff>:/maintools/gpedit.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="secpolBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>安全策略</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/secpolicy.ico</normaloff>:/maintools/secpolicy.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_13">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_13">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_13">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="resmonBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>资源监视</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/resmon.ico</normaloff>:/maintools/resmon.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="perfsetBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>性能设置</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/perfsettings.ico</normaloff>:/maintools/perfsettings.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="perfBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>性能监视</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/performance.ico</normaloff>:/maintools/performance.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_14">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_14">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_14">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="powerBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>电源设置</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/powercfg.ico</normaloff>:/maintools/powercfg.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="certBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>证书管理</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/certmgr.ico</normaloff>:/maintools/certmgr.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="RAMBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>内存诊断</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/RAM.png</normaloff>:/maintools/RAM.png</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>网络</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <property name="leftMargin">
+            <number>3</number>
+           </property>
+           <property name="topMargin">
+            <number>3</number>
+           </property>
+           <property name="rightMargin">
+            <number>3</number>
+           </property>
+           <property name="bottomMargin">
+            <number>3</number>
+           </property>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_16">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_17">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_17">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="firewallBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>防火墙</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/firewall.ico</normaloff>:/maintools/firewall.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="proxyBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>代理设置</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/proxy.ico</normaloff>:/maintools/proxy.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="hostsBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Hosts文件</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/hosts.ico</normaloff>:/maintools/hosts.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_17">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_18">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_18">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="routeBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>路由表</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/route.ico</normaloff>:/maintools/route.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="ipv4Btn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>IP v4</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/ipv4.ico</normaloff>:/maintools/ipv4.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="ipv6Btn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>IP v6</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/ipv6.ico</normaloff>:/maintools/ipv6.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <widget class="QScrollArea" name="scrollArea_18">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="horizontalScrollBarPolicy">
+              <enum>Qt::ScrollBarAlwaysOff</enum>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents_19">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>119</width>
+                <height>90</height>
+               </rect>
+              </property>
+              <layout class="QFormLayout" name="formLayout_19">
+               <property name="leftMargin">
+                <number>3</number>
+               </property>
+               <property name="topMargin">
+                <number>3</number>
+               </property>
+               <property name="rightMargin">
+                <number>3</number>
+               </property>
+               <property name="bottomMargin">
+                <number>3</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QPushButton" name="netconnBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>网络连接</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/netconnections.ico</normaloff>:/maintools/netconnections.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="sharedBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>共享文件夹</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/share.ico</normaloff>:/maintools/share.ico</iconset>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QPushButton" name="flushdnsBtn">
+                 <property name="minimumSize">
+                  <size>
+                   <width>107</width>
+                   <height>23</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>清除DNS缓存</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="maintools.qrc">
+                   <normaloff>:/maintools/flushdns.png</normaloff>:/maintools/flushdns.png</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="maintools.qrc"/>
+ </resources>
+ <connections/>
+</ui>
